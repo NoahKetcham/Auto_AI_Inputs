@@ -1,0 +1,7 @@
+# Secrets - never commit
+settings.yaml
+agent_state.json
+
+# Logs
+*.log
+agent_events.jsonl

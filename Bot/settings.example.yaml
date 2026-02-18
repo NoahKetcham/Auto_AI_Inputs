@@ -1,0 +1,26 @@
+# Copy this file to settings.yaml and fill in your values.
+# settings.yaml is gitignored - never commit real API keys.
+#
+#   cp settings.example.yaml settings.yaml
+#   # Edit settings.yaml with your API keys
+
+# Which provider to use: minimax | kimi | nvidia
+active: minimax
+
+providers:
+  minimax:
+    api_key: "your-minimax-api-key-here"
+    api_base_url: "https://api.minimax.io/v1"
+    model_name: "MiniMax-M2.5"
+
+  kimi:
+    # Moonshot AI direct (platform.moonshot.ai)
+    api_key: "your-moonshot-api-key-here"
+    api_base_url: "https://api.moonshot.ai/v1"
+    model_name: "kimi-k2.5"
+
+  nvidia:
+    # NVIDIA NIM - Kimi K2.5 via integrate.api.nvidia.com
+    api_key: "nvapi-your-nvidia-api-key-here"
+    api_base_url: "https://integrate.api.nvidia.com/v1"
+    model_name: "moonshotai/kimi-k2.5"

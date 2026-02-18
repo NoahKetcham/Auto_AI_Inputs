@@ -1,0 +1,5 @@
+pyautogui
+mss
+Pillow
+openai
+pyyaml
